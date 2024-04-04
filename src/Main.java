@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws SQLException, IOException {
         Helper help = new Helper();
-        help.Connection("jdbc:mysql://localhost/test", "root", "ensoxPER324");
+        help.Connection("jdbc:mysql://localhost/test", "root", "root");
         Scanner in = new Scanner(System.in);
         String tablename = "oper";
         int input;

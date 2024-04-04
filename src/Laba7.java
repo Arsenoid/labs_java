@@ -7,7 +7,7 @@ public class Laba7 {
     public static void main(String[] args) throws SQLException, IOException {
 
         Helper helper = new Helper();
-        helper.Connection("jdbc:mysql://localhost/test", "root", "Petya9644");
+        helper.Connection("jdbc:mysql://localhost/test", "root", "root");
         Scanner in = new Scanner(System.in);
         String tablename = "laba7";
 
